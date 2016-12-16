@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title>DISC Assessor</title>
+    <link href="public/css/evHomeStyle.css" type="text/css" rel="stylesheet"/>
+  </head>
+
+  <body>
+
+      <header class="body" >
+        <p class="title">DISC Validation Tool</p>
+        <h2 class="motto">have you taken your DISC yet?</h2>
+      </header>
+
+
+  <section class="body boxsizingBorder">
+    <section id="form" class="form" method="post">
+    <!-- <section id="form" class="form" action="/emailSubmit" method="post"> -->
+
+
+      <label>email</label>
+      <input id="emailAddressInput" name="emailInput" type="email" placehoder="Type Here" pattern="[a-zA-Z0-9]+@gravitypayments.com" required autofocus>
+
+
+
+      <div class="wrapper">
+        <!-- <button id="submitButton" class="submitButton" onclick="emailRedirect()" type="submit">submit!</button> -->
+        <button id="submitButton" class="submitButton" onclick="return emailChecker()" type="submit">submit!</button>
+      </div>
+
+    </section>
+  </section>
+
+
+
+  <footer class="body">
+    <h6 class="footie"></h6>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="public/js/evHome.js" type="text/javascript"></script>
+
+
+</body>
+
+</html>

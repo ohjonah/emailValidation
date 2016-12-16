@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+  <title>DISC Assessor</title>
+  <link href="public/css/evHomeStyle.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+
+  <header class="body" >
+    <p class="title">DISC Validation Tool</p>
+    <h2 class="motto">please update your DISC score!</h2>
+  </header>
+
+
+  <section class="body boxsizingBorder">
+    <section id="mainform">
+
+      <label>First Name</label>
+      <input id="firstName" name="firstName" placehoder="Type Here" autofocus>
+
+      <label>Last Name</label>
+      <input id="lastName" name="lastName" placehoder="Type Here">
+
+      <label>Dominance</label>
+      <input id="dScore" name="dScore" type="number" placeholder="Your D Score" step="0">
+
+      <label>Influence</label>
+      <input id="iScore" name="iScore" type="number" placeholder="Your I Score">
+
+      <label>Submissive</label>
+      <input id="sScore" name="sScore" type="number" placeholder="Your C Score">
+
+      <label>Compliance</label>
+      <input id="cScore" name="cScore" type="number" placeholder="Your S Score">
+
+      <div class="wrapper">
+          <button id="submitButton" class="submitButton" onclick="saveRecord()" type="submit">update!</button>
+          <!-- <button id="reset" class="button" type="reset">RESET</button> -->
+      </div>
+
+
+    </section>
+  </section>
+
+
+
+  <footer class="body">
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="public/js/evHome.js" type="text/javascript"></script>
+
+</body>
+
+</html>
